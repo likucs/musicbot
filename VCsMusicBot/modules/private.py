@@ -17,9 +17,9 @@ def _start(client, message):
                         "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "👥 Group", url=f"https://t.me/seriesprovider1"), 
+                        "👥 Group", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
-                        "Channel 📢", url=f"https://t.me/mod_apk_premium_cs")
+                        "Channel 📢", url=f"https://t.me//{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
                         "👑 Owner 👑", url=f"https://iAmLiKu1")
@@ -37,7 +37,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/seriesprovider1"
+                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],    
                 [    
