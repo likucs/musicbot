@@ -26,7 +26,7 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "tgVCSets"
+      "value": "seriesprovider1"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
@@ -45,12 +45,12 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/cf19dda907391656338eb.png"
+      "value": "https://telegra.ph/file/877c100bff4d0580e2065.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "ZauteKm"
+      "value": "mod_apk_premium_cs"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
