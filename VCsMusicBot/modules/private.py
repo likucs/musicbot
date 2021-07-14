@@ -19,10 +19,10 @@ def _start(client, message):
                     InlineKeyboardButton(
                         "👥 Group", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
-                        "Channel 📢", url=f"https://t.me//{UPDATES_CHANNEL}")
+                        "Channel 📢", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "👑 Owner 👑", url=f"https://{OWNER_NAME}")
+                        "👑 Owner 👑", url=f"https://t.me/{OWNER_NAME}")
                 ]
             ]
         ),
