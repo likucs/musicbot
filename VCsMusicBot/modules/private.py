@@ -2,7 +2,7 @@ import logging
 from VCsMusicBot.modules.msg import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from VCsMusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
+from VCsMusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME,OWNER_NAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
@@ -22,7 +22,7 @@ def _start(client, message):
                         "Channel 📢", url=f"https://t.me//{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "👑 Owner 👑", url=f"https://iAmLiKu1")
+                        "👑 Owner 👑", url=f"https://{OWNER_NAME}")
                 ]
             ]
         ),
