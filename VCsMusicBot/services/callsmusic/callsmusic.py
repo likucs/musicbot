@@ -1,6 +1,6 @@
 from typing import Dict
 
-from pytgcalls import GroupCall
+from py-tgcalls==0.5.2 import GroupCall
 
 from VCsMusicBot.services.callsmusic import client
 from VCsMusicBot.services.queues import queues
